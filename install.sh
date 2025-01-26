@@ -30,8 +30,8 @@ set +e
 cd $tmpdir && rm -rf ruby-binary && cd / && rmdir $tmpdir
 " 0
 
-## download Rakefile (https://github.com/minimum2scp/ruby-binary/blob/master/Rakefile)
-git clone https://github.com/minimum2scp/ruby-binary -b ${branch} $tmpdir/ruby-binary
+## download Rakefile (https://github.com/crazyp83/ruby-binary/blob/master/Rakefile)
+git clone https://github.com/crazyp83/ruby-binary -b ${branch} $tmpdir/ruby-binary
 
 ## detect platform
 if [ -z "${platform}" ]; then
